@@ -1,0 +1,4 @@
+-- Import opsional. Aplikasi juga membuat/migrasi schema otomatis.
+-- Database: simrs_patient_registration
+-- Port aplikasi: 3307
+-- Demo login: registration@hospital.test / password

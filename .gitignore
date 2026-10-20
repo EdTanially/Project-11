@@ -1,0 +1,69 @@
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Temporary and log files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.php
+credentials.php
+
+# Local database and backup files
+*.sql.bak
+*.sql.gz
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+*.ibd
+*.ibdata*
+*.ib_logfile*
+*.MYD
+*.MYI
+*.MAD
+*.MAI
+
+# Local database server files
+mysql/data/
+mariadb/data/
+
+# PHP dependencies, if installed locally
+/vendor/
+
+# Node.js dependencies, if used
+/node_modules/
+
+# Build and cache files
+/cache/
+/.cache/
+*.cache
+
+# Local exports and personal backups
+/backups/
+backup/
+*.bak
+*.old
+
+# Uploaded files that may contain private information
+/uploads/
+storage/uploads/
+
+# Local-only configuration files
+config.local.php
+database.local.php

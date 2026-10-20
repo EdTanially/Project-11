@@ -1,0 +1,1 @@
+document.querySelectorAll("[data-confirm]").forEach(e=>e.addEventListener("click",ev=>{if(!confirm(e.dataset.confirm))ev.preventDefault();}));
